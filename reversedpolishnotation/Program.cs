@@ -121,7 +121,7 @@ public class Program
 
     public static void Main()
     {
-        List<string> result = ReversePolishNotation("(9+12)-10*(40-20)");
+        List<string> result = ReversePolishNotation(Console.ReadLine());
         foreach (string element in result)
         {
             Console.Write(element + " ");
